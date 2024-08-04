@@ -14,3 +14,5 @@ eval "$(fzf --bash)"
 
 # starship 
 eval "$(starship init bash)"
+
+# Install bat https://github.com/sharkdp/bat?tab=readme-ov-file
