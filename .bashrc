@@ -7,10 +7,10 @@ fi
 conda activate base
 
 # zoxide
-eval "$(zoxide init bash)"
+eval "$(zoxide init --cmd cd bash)"
 
 # fzf
 eval "$(fzf --bash)"
 
 # starship 
-eval "$(starship init --cmd cd bash)"
+eval "$(starship init bash)"
