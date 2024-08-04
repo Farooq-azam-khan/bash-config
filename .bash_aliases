@@ -1,6 +1,14 @@
-# Need to install `pnpm`, and `nvim`
+# Need to install `pnpm`
 alias npm='pnpm'
-alias vim='nvim' 
+
+# NeoVim aliases
+alias vim='nvim'
+alias vi='nvim'
+
+# ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
 
 alias dev='cd ~/dev'
 
