@@ -13,4 +13,4 @@ eval "$(zoxide init bash)"
 eval "$(fzf --bash)"
 
 # starship 
-eval "$(starship init bash)"
+eval "$(starship init --cmd cd bash)"
