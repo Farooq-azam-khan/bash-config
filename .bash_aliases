@@ -1,6 +1,12 @@
 # Need to install `pnpm`
 alias npm='pnpm'
 
+# Git aliases
+alias gs='git status'
+alias gap='git add -p'
+alias gcm='git commit -m'
+
+
 # NeoVim aliases
 alias vim='nvim'
 alias vi='nvim'
