@@ -16,3 +16,4 @@ eval "$(fzf --bash)"
 eval "$(starship init bash)"
 
 # Install bat https://github.com/sharkdp/bat?tab=readme-ov-file
+# Install rigpreg https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
