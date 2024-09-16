@@ -2,6 +2,9 @@ if [ -f ~/.bash_aliases ]; then
     . ~/.bash_aliases
 fi
 
+# Install nvim first
+export EDITOR='nvim'
+export VISUAL='nvim'
 
 # Conda
 conda activate base
