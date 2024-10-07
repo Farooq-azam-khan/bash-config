@@ -30,12 +30,10 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
 fi
 
-
 # Tree Aliases
 alias tt='tree -I __pycache__ -I node_modules -I .git -I .pytest_cache -I elm-stuff -I .ruff_cache -sh -C -a'
-alias tt1='tt -L 1' 
-alias tt2='tt -L 2' 
-alias tt3='tt -L 3' 
+alias ttl='tt -L '
 
 alias ttgi='tt --gitignore'
 alias ttd='tt -d' 
+alias ttdl='tt -d -L '
