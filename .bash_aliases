@@ -11,7 +11,7 @@ alias gcm='git commit -m'
 alias vim='nvim'
 alias vi='nvim'
 
-# ls aliases
+# ls aliases    
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
@@ -29,3 +29,13 @@ if [ -x /usr/bin/dircolors ]; then
     alias fgrep='fgrep --color=auto'
     alias egrep='egrep --color=auto'
 fi
+
+
+# Tree Aliases
+alias tt='tree -I __pycache__ -I node_modules -I .git -I .pytest_cache -I elm-stuff -I .ruff_cache -sh -C -a'
+alias tt1='tt -L 1' 
+alias tt2='tt -L 2' 
+alias tt3='tt -L 3' 
+
+alias ttgi='tt --gitignore'
+alias ttd='tt -d' 
