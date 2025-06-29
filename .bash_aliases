@@ -37,3 +37,5 @@ alias ttl='tt -L '
 alias ttgi='tt --gitignore'
 alias ttd='tt -d' 
 alias ttdl='tt -d -L '
+
+alias explorer='xdg-open'
